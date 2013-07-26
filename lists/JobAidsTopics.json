@@ -1,0 +1,83 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/icm/_vti_bin/listdata.svc/JobAidsTopics('Bus%20Pass%20Program')",
+                    "type": "Microsoft.SharePoint.DataService.JobAidsTopicsValue"
+                },
+                "Value": "Bus Pass Program"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/icm/_vti_bin/listdata.svc/JobAidsTopics('Case%20Management')",
+                    "type": "Microsoft.SharePoint.DataService.JobAidsTopicsValue"
+                },
+                "Value": "Case Management"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/icm/_vti_bin/listdata.svc/JobAidsTopics('Employment%20Planning')",
+                    "type": "Microsoft.SharePoint.DataService.JobAidsTopicsValue"
+                },
+                "Value": "Employment Planning"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/icm/_vti_bin/listdata.svc/JobAidsTopics('Family%20Maintenance')",
+                    "type": "Microsoft.SharePoint.DataService.JobAidsTopicsValue"
+                },
+                "Value": "Family Maintenance"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/icm/_vti_bin/listdata.svc/JobAidsTopics('Financial')",
+                    "type": "Microsoft.SharePoint.DataService.JobAidsTopicsValue"
+                },
+                "Value": "Financial"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/icm/_vti_bin/listdata.svc/JobAidsTopics('HAB')",
+                    "type": "Microsoft.SharePoint.DataService.JobAidsTopicsValue"
+                },
+                "Value": "HAB"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/icm/_vti_bin/listdata.svc/JobAidsTopics('Health')",
+                    "type": "Microsoft.SharePoint.DataService.JobAidsTopicsValue"
+                },
+                "Value": "Health"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/icm/_vti_bin/listdata.svc/JobAidsTopics('Intake')",
+                    "type": "Microsoft.SharePoint.DataService.JobAidsTopicsValue"
+                },
+                "Value": "Intake"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/icm/_vti_bin/listdata.svc/JobAidsTopics('Reference')",
+                    "type": "Microsoft.SharePoint.DataService.JobAidsTopicsValue"
+                },
+                "Value": "Reference"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/icm/_vti_bin/listdata.svc/JobAidsTopics('Seniors%20Supplement')",
+                    "type": "Microsoft.SharePoint.DataService.JobAidsTopicsValue"
+                },
+                "Value": "Seniors Supplement"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/icm/_vti_bin/listdata.svc/JobAidsTopics('Service%20Providers')",
+                    "type": "Microsoft.SharePoint.DataService.JobAidsTopicsValue"
+                },
+                "Value": "Service Providers"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+#search-notfound {
+    display: none;
+}
+.search, .filter {
+    line-height: 1.5em;
+    margin: 20px 0;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+.search {
+    min-width: 35%;
+}
