@@ -17,6 +17,8 @@ Getting Started
 
 Although this project was built using [Yeoman](http://yeoman.io/) it is not needed to make future changes. Grunt, however, is. Both to run the development server (which includes [liveReload](https://github.com/gruntjs/grunt-contrib-livereload), and a [SharePoint REST services emulation](https://github.com/TheWebShop/sp2010-rest)) and to compile the project for a production environment.
 
+This project was created using the techniques described in [this gist](https://gist.github.com/Sinetheta/6003037).
+
 Deploying
 ---------
 
