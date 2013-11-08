@@ -27,33 +27,51 @@ require.config({
 
 require(['jquery', 'underscore', 'listjs', 'moment', 'placeholder'], function($, _, List, moment, Placeholder) {
     'use strict';
-    var getList = $.getJSON('/tools/communicationstools/_vti_bin/listdata.svc/Acronyms')
+    var getJobAids = $.getJSON('/icm/_vti_bin/listdata.svc/JobAids?$expand=Topics')
         .pipe(function(data) {
-            var list = _.map(data.d.results, function(el) {
+            function toTitleCase(str) {
+                return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+            }
+            function titleFromFileName(str) {
+                var title = str.substr(0, str.lastIndexOf('.'));
+                title = title.replace(/-/g,' ');
+                title = toTitleCase(title);
+                return title;
+            }
+            var jobaids = _.map(data.d.results, function(el) {
+                el.Title = el.Title || titleFromFileName(el.Name);
+                el.Topics = _.map(el.Topics.results, function(topic) {
+                    return topic.Value;
+                }).join(', ');
                 return el;
             });
-            list.categories = _.uniq(_.map(data.d.results, function(el) {
-                return el.Category;
-            }));
-            return list;
+            jobaids = _.sortBy(jobaids, 'Title');
+            return jobaids = _.sortBy(jobaids, 'Topics');
+        });
+    var getTopics = $.getJSON('/icm/_vti_bin/listdata.svc/JobAidsTopics').pipe(function(data) {
+        return _.pluck(data.d.results, 'Value');
+    });
+
+    $.when(getJobAids, getTopics).done(function(jobaids, topics) {
+        var allTpl = _.template($('#jobaids-table').html(), {
+            jobaids: jobaids,
+            topics: topics
         });
 
-    $.when(getList).done(function(list) {
-        var allTpl = _.template($('#list-table').html(), {
-            list: list,
-            categories: list.categories
-        });
+        $('#loading-jobaids').remove();
+        $('#jobaids-all').append(allTpl).find('.search').show();
 
-        $('#loading-list').remove();
-        $('#list-all').append(allTpl).find('.search').show();
-
-        var list = new List('list-all', {
+        var list = new List('jobaids-all', {
             valueNames: [
-                'Acronym',
-                'Definition',
-                'Category'
+                'Title',
+                'Topics',
+                'Modified'
             ]
         });
+        $(list.list).find('time').each(function() {
+            var updated = $(this).text();
+            $(this).text(moment(updated).fromNow());
+        })
 
         zebraTable(list.list);
         list.on('updated', function() {
@@ -66,14 +84,14 @@ require(['jquery', 'underscore', 'listjs', 'moment', 'placeholder'], function($,
         // now that the <input> is on the stage we can polyfil for IE8
         if(!Modernizr.input.placeholder) window.placeholder = new Placeholder();
 
-        $('#category-select').on('change', function() {
-            var cat = $(this).val();
+        $('#topic-select').on('change', function() {
+            var topic = $(this).val();
 
             list.filter(function(item) {
                 // if there is no filter or if the filter is among the item topics
-                return !cat || item.values().Category.indexOf(cat) !== -1;
+                return !topic || item.values().Topics.indexOf(topic) !== -1;
             });
-            $('#list-search').attr('placeholder', 'Search from ' + list.matchingItems.length + ' Acronyms...');
+            $('#jobaid-search').attr('placeholder', 'Search from ' + list.matchingItems.length + ' JobAids...');
         });
 
         function zebraTable(container){
