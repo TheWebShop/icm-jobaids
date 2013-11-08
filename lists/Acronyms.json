@@ -1,0 +1,286 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(1)",
+                    "etag": "W/\"2\"",
+                    "type": "Microsoft.SharePoint.DataService.AcronymsItem"
+                },
+                "ContentTypeID": "0x01008C8C7DA1E0EDFF499AD5607166527486",
+                "Acronym": "MSD",
+                "Definition": "Management Services Division",
+                "Category": "One",
+                "Id": 1,
+                "ContentType": "Item",
+                "Modified": "/Date(1378308163000)/",
+                "Created": "/Date(1378301217000)/",
+                "CreatedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(1)/CreatedBy"
+                    }
+                },
+                "CreatedById": 6,
+                "ModifiedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(1)/ModifiedBy"
+                    }
+                },
+                "ModifiedById": 6,
+                "Owshiddenversion": 2,
+                "Version": "1.0",
+                "Attachments": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(1)/Attachments"
+                    }
+                },
+                "Path": "/tools/communicationstools/Lists/acronyms"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(2)",
+                    "etag": "W/\"2\"",
+                    "type": "Microsoft.SharePoint.DataService.AcronymsItem"
+                },
+                "ContentTypeID": "0x01008C8C7DA1E0EDFF499AD5607166527486",
+                "Acronym": "EWD",
+                "Definition": "Employment and Workforce Development",
+                "Category": "One",
+                "Id": 2,
+                "ContentType": "Item",
+                "Modified": "/Date(1378308169000)/",
+                "Created": "/Date(1378301235000)/",
+                "CreatedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(2)/CreatedBy"
+                    }
+                },
+                "CreatedById": 6,
+                "ModifiedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(2)/ModifiedBy"
+                    }
+                },
+                "ModifiedById": 6,
+                "Owshiddenversion": 2,
+                "Version": "1.0",
+                "Attachments": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(2)/Attachments"
+                    }
+                },
+                "Path": "/tools/communicationstools/Lists/acronyms"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(3)",
+                    "etag": "W/\"2\"",
+                    "type": "Microsoft.SharePoint.DataService.AcronymsItem"
+                },
+                "ContentTypeID": "0x01008C8C7DA1E0EDFF499AD5607166527486",
+                "Acronym": "RSD",
+                "Definition": "Regional Services Division",
+                "Category": "Two",
+                "Id": 3,
+                "ContentType": "Item",
+                "Modified": "/Date(1378308179000)/",
+                "Created": "/Date(1378301250000)/",
+                "CreatedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(3)/CreatedBy"
+                    }
+                },
+                "CreatedById": 6,
+                "ModifiedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(3)/ModifiedBy"
+                    }
+                },
+                "ModifiedById": 6,
+                "Owshiddenversion": 2,
+                "Version": "1.0",
+                "Attachments": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(3)/Attachments"
+                    }
+                },
+                "Path": "/tools/communicationstools/Lists/acronyms"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(4)",
+                    "etag": "W/\"2\"",
+                    "type": "Microsoft.SharePoint.DataService.AcronymsItem"
+                },
+                "ContentTypeID": "0x01008C8C7DA1E0EDFF499AD5607166527486",
+                "Acronym": "EAW",
+                "Definition": "Emplyment and Assistance Worker",
+                "Category": "Two",
+                "Id": 4,
+                "ContentType": "Item",
+                "Modified": "/Date(1378308187000)/",
+                "Created": "/Date(1378301268000)/",
+                "CreatedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(4)/CreatedBy"
+                    }
+                },
+                "CreatedById": 6,
+                "ModifiedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(4)/ModifiedBy"
+                    }
+                },
+                "ModifiedById": 6,
+                "Owshiddenversion": 2,
+                "Version": "1.0",
+                "Attachments": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(4)/Attachments"
+                    }
+                },
+                "Path": "/tools/communicationstools/Lists/acronyms"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(5)",
+                    "etag": "W/\"2\"",
+                    "type": "Microsoft.SharePoint.DataService.AcronymsItem"
+                },
+                "ContentTypeID": "0x01008C8C7DA1E0EDFF499AD5607166527486",
+                "Acronym": "PWD",
+                "Definition": "Persons With Disabilities",
+                "Category": "Two",
+                "Id": 5,
+                "ContentType": "Item",
+                "Modified": "/Date(1378308194000)/",
+                "Created": "/Date(1378301307000)/",
+                "CreatedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(5)/CreatedBy"
+                    }
+                },
+                "CreatedById": 6,
+                "ModifiedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(5)/ModifiedBy"
+                    }
+                },
+                "ModifiedById": 6,
+                "Owshiddenversion": 2,
+                "Version": "1.0",
+                "Attachments": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(5)/Attachments"
+                    }
+                },
+                "Path": "/tools/communicationstools/Lists/acronyms"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(6)",
+                    "etag": "W/\"2\"",
+                    "type": "Microsoft.SharePoint.DataService.AcronymsItem"
+                },
+                "ContentTypeID": "0x01008C8C7DA1E0EDFF499AD5607166527486",
+                "Acronym": "ICM",
+                "Definition": "Integrated Case Management",
+                "Category": "Banana",
+                "Id": 6,
+                "ContentType": "Item",
+                "Modified": "/Date(1378308213000)/",
+                "Created": "/Date(1378301329000)/",
+                "CreatedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(6)/CreatedBy"
+                    }
+                },
+                "CreatedById": 6,
+                "ModifiedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(6)/ModifiedBy"
+                    }
+                },
+                "ModifiedById": 6,
+                "Owshiddenversion": 2,
+                "Version": "1.0",
+                "Attachments": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(6)/Attachments"
+                    }
+                },
+                "Path": "/tools/communicationstools/Lists/acronyms"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(7)",
+                    "etag": "W/\"2\"",
+                    "type": "Microsoft.SharePoint.DataService.AcronymsItem"
+                },
+                "ContentTypeID": "0x01008C8C7DA1E0EDFF499AD5607166527486",
+                "Acronym": "ELMSD",
+                "Definition": "Employement and Labour Market Services Division",
+                "Category": "Banana",
+                "Id": 7,
+                "ContentType": "Item",
+                "Modified": "/Date(1378308207000)/",
+                "Created": "/Date(1378301357000)/",
+                "CreatedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(7)/CreatedBy"
+                    }
+                },
+                "CreatedById": 6,
+                "ModifiedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(7)/ModifiedBy"
+                    }
+                },
+                "ModifiedById": 6,
+                "Owshiddenversion": 2,
+                "Version": "1.0",
+                "Attachments": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(7)/Attachments"
+                    }
+                },
+                "Path": "/tools/communicationstools/Lists/acronyms"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(8)",
+                    "etag": "W/\"2\"",
+                    "type": "Microsoft.SharePoint.DataService.AcronymsItem"
+                },
+                "ContentTypeID": "0x01008C8C7DA1E0EDFF499AD5607166527486",
+                "Acronym": "PRD",
+                "Definition": "Policy and Research Division",
+                "Category": "Banana",
+                "Id": 8,
+                "ContentType": "Item",
+                "Modified": "/Date(1378308218000)/",
+                "Created": "/Date(1378301378000)/",
+                "CreatedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(8)/CreatedBy"
+                    }
+                },
+                "CreatedById": 6,
+                "ModifiedBy": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(8)/ModifiedBy"
+                    }
+                },
+                "ModifiedById": 6,
+                "Owshiddenversion": 2,
+                "Version": "1.0",
+                "Attachments": {
+                    "__deferred": {
+                        "uri": "https://theloop.gov.bc.ca/tools/communicationstools/_vti_bin/listdata.svc/Acronyms(8)/Attachments"
+                    }
+                },
+                "Path": "/tools/communicationstools/Lists/acronyms"
+            }
+        ]
+    }
+}
