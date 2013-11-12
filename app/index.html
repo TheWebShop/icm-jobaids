@@ -21,6 +21,9 @@
             width: 796px;
             margin: 0 auto;
         }
+        .keywords-column, .keywords-header {
+            display: none;
+        }
         </style>
 
         <!-- build:css({.tmp,app}) styles/main.css -->
@@ -55,6 +58,7 @@
                     <th class="sort ms-rteTableHeaderOddCol-1" data-sort="Title">Job Aid</th>
                     <th class="sort ms-rteTableHeaderOddCol-1" data-sort="Topics">Topics</th>
                     <th class="sort ms-rteTableHeaderOddCol-1" data-sort="Modified">Updated</th>
+                    <th class="sort ms-rteTableHeaderOddCol-1 keywords-header" data-sort="Keywords">Keywords</th>
                 </tr>
             </thead>
             <tbody class="list">
@@ -63,6 +67,7 @@
                     <td class="Title"><a href="{{ el.Path }}/{{ el.Name }}" class="jobaid">{{ el.Title }}</a></td>
                     <td class="Topics">{{ el.Topics }}</td>
                     <td class="Modified"><time datetime="{{ el.Modified }}">{{ el.Modified }}</time></td>
+                    <td class="Keywords keywords-column">{{ el.Keywords }}</td>
                 </tr>
                 {[ }); ]}
             </tbody>
