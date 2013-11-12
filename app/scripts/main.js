@@ -45,10 +45,8 @@ require(['jquery', 'underscore', 'listjs', 'moment', 'placeholder'], function($,
                 }).join(', ');
                 return el;
             });
-            console.log(data);
             jobaids = _.sortBy(jobaids, 'Title');
             return jobaids = _.sortBy(jobaids, 'Topics');
-
         });
         
     var getTopics = $.getJSON('/icm/_vti_bin/listdata.svc/JobAidsTopics').pipe(function(data) {
