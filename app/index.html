@@ -24,6 +24,22 @@
         .keywords-column, .keywords-header {
             display: none;
         }
+        #jobaid-search {
+            width:  65%;
+            margin-right: 10px;
+        }
+        .job-aid-captionbox {
+            background-color: #c5e1eb;
+            margin: 2px;
+            padding: 0px;
+            border-top: 1px #0072bc solid;
+            border-bottom: 1px #0072bc solid;
+        }
+        div.message {
+            margin-left: 50px;
+            font-size: 20px;
+            font-style: italic;
+        }
         </style>
 
         <!-- build:css({.tmp,app}) styles/main.css -->
@@ -35,23 +51,23 @@
     </head>
     <body>
         <div class="container">
-            <h1>JobAids List</h1>
+            <h1>Job Aids List</h1>
 
             <div id="jobaids-all"></div>
             <p id="loading-jobaids">Loading JobAids...</p>
-            <div class="message" id="search-notfound">No matching jobaids found. Try something else.</div>
+            <div class="message" id="search-notfound">No matching Job Aids found. Try something else.</div>
         </div>
 
         <script type="text/template" id="jobaids-table">
         <table class="table ms-rteTable-1 table-striped">
-            <caption>
+            <caption class="job-aid-captionbox">
+                <input style="display:none" id="jobaid-search" class="search input-medium search-query" type="search" placeholder="Search from {{ jobaids.length }} JobAids using Title, Keywords, or Date Modified..." autofocus>
                 <select id="topic-select" class="filter">
-                        <option value="">Topic Filter</option>
+                        <option value="">Filter by Topic</option>
                     {[ _.each(topics, function (topic, i) { ]}
                         <option>{{ topic }}</option>
                     {[ }); ]}
                 </select>
-                <input style="display:none" id="jobaid-search" class="search input-medium search-query" type="search" placeholder="Search from {{ jobaids.length }} JobAids..." autofocus>
             </caption>
             <thead>
                 <tr class="ms-rteTableHeaderRow-1">
