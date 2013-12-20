@@ -40,6 +40,15 @@
             font-size: 20px;
             font-style: italic;
         }
+        .asc {
+            background: url('/images/arrow-asc.png') #add0dd right no-repeat;
+        }
+        .desc {
+            background: url('images/arrow-desc.png') #add0dd right no-repeat;
+        }
+        thead {
+            cursor: pointer;
+        }
         </style>
 
         <!-- build:css({.tmp,app}) styles/main.css -->
@@ -61,7 +70,7 @@
         <script type="text/template" id="jobaids-table">
         <table class="table ms-rteTable-1 table-striped">
             <caption class="job-aid-captionbox">
-                <input style="display:none" id="jobaid-search" class="search input-medium search-query" type="search" placeholder="Search from {{ jobaids.length }} JobAids using Title, Keywords, or Date Modified..." autofocus>
+                <input style="display:none" id="jobaid-search" class="search input-medium search-query" type="search" placeholder="Search from {{ jobaids.length }} JobAids using Title, Keywords, or Date..." autofocus>
                 <select id="topic-select" class="filter">
                         <option value="">Filter by Topic</option>
                     {[ _.each(topics, function (topic, i) { ]}
@@ -69,11 +78,12 @@
                     {[ }); ]}
                 </select>
             </caption>
+
             <thead>
                 <tr class="ms-rteTableHeaderRow-1">
                     <th class="sort ms-rteTableHeaderOddCol-1" data-sort="Title">Job Aid</th>
                     <th class="sort ms-rteTableHeaderOddCol-1" data-sort="Topics">Topics</th>
-                    <th class="sort ms-rteTableHeaderOddCol-1" data-sort="Modified">Updated</th>
+                    <th class="sort ms-rteTableHeaderOddCol-1" data-sort="Updated">Updated</th>
                     <th class="sort ms-rteTableHeaderOddCol-1 keywords-header" data-sort="Keywords">Keywords</th>
                 </tr>
             </thead>
@@ -82,7 +92,7 @@
                 <tr>
                     <td class="Title"><a href="{{ el.Path }}/{{ el.Name }}" class="jobaid">{{ el.Title }}</a></td>
                     <td class="Topics">{{ el.Topics }}</td>
-                    <td class="Modified"><time datetime="{{ el.Modified }}">{{ el.Modified }}</time></td>
+                    <td class="Updated"><time datetime="{{ el.Updated }}">{{ el.Updated }}</time></td>
                     <td class="Keywords keywords-column">{{ el.Keywords }}</td>
                 </tr>
                 {[ }); ]}
